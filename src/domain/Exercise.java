@@ -1,7 +1,15 @@
 package domain;
 
+import domain.Exercise;
+
+/**
+ * Method that returns value of the second bigger value
+ * @author Kolja
+ */
 public class Exercise {
-    public static float Calculate(int R){
-        return (float) (2*Math.PI*Math.sqrt(R));
+    public static int SecondBigNumber(int[] array){ 
+        Arrays.sort(array); 
+        int secondBig = array[array.length - 2]; 
+        return secondBig; 
     }
 }
