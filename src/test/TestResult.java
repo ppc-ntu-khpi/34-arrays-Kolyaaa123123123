@@ -6,7 +6,8 @@ public class TestResult {
 
     public static void main(String[] args) {
 
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        int[] array = {1, 2, 4, 7, 8, 3, 2, 4, 6, 101, 100, 1}; 
+        int result = Exercise.SecondBigNumber(array); 
+        System.out.println(result); 
     }
 }
